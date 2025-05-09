@@ -5,7 +5,7 @@ hamburger.addEventListener('click' , () => {
     navlinks.classList.toggle('active');
 });
 
-const text ="Hi, I'm Mr.s | ";
+const text ="Hi, I'm Mr.s | Dandu sherpa ";
 const typeText = document.getElementById('typed-text');
 let index = 0;
 function type(){
@@ -45,4 +45,24 @@ projects.forEach(project=> {
     <p>${project.description}</p>
     `;
     container.appendChild(card)
-})
+});
+
+const services = [
+    {
+        Image : "./image/html5-css3-hd.jpg",
+        Title :"service box",
+        Description : "This is a service div "
+    },
+    ];
+    const containers = document.getElementById("service-div");
+services.forEach(projects=> {
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+    <img src = "${projects.Image}" alt = "${projects.title}"/>
+    <h3> ${projects.Title}</h3>
+    <p>${projects.Description}</p>
+    `;
+    containers.appendChild(card)
+});
