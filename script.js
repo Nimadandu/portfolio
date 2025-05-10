@@ -46,7 +46,7 @@ projects.forEach(project=> {
     `;
     container.appendChild(card)
 });
-
+//service card
 const services = [
     {
         Image : "./image/html5-css3-hd.jpg",
@@ -65,4 +65,37 @@ services.forEach(projects=> {
     <p>${projects.Description}</p>
     `;
     containers.appendChild(card)
+});
+
+//review
+
+const review = [
+{
+    images : "./image/pexels-kevin-ku-92347-577585.jpg",
+    titles : " Elon Musk",
+    descriptions : "Great work! very creative and professional",
+},
+{
+    images : "./image/pexels-kevin-ku-92347-577585.jpg",
+    titles : " Elon Musk",
+    descriptions : "Great work! very creative and professional",
+},
+{
+    images : "./image/pexels-kevin-ku-92347-577585.jpg",
+    titles : " Elon Musk",
+    descriptions : "Great work! very creative and professional",
+},
+];
+
+const review_container = document.getElementById("review_div");
+review.forEach(reviews=> {
+
+    const cards = document.createElement("div");
+    cards.className = "review-card";
+    cards.innerHTML = `
+    <img src = "${reviews.images}" alt = "${reviews.titles}"/>
+    <h4> ${reviews.titles}</h4>
+    <p>${reviews.descriptions}</p>
+    `;
+    review_container.appendChild(cards)
 });
