@@ -170,13 +170,26 @@ box-shadow: 3px 3px 3px 3px black;
     font-size: 30px;
  }
  .review-card{
+    /* background-color: #007bff; */
         align-items: center;
-
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
     width: 20%;
     height: 20%;
+ }
+ @keyframes animated {
+    from{
+
+    }
+    to{transform: translateY(20px);
+        background-color: rgb(200, 202, 201);
+    
+    }
+ }
+ .review-card:hover{
+animation-name: animated;
+animation-duration: 1s;
  }
  @media(max-width:600px){
     .review-card{
@@ -186,6 +199,8 @@ box-shadow: 3px 3px 3px 3px black;
  .review-card img{
     /* border: 2px solid black; */
     height: 50%;
+    /* border: 2px; */
+
     border-radius: 50%;
     width: 30%;
     margin-top: 20px;
