@@ -4,11 +4,23 @@ body{
 }
 
 .logo{
-    color: black;
+    color: white;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 20px;
+    /* color: black; */
     /* background-color: aqua; */
     /* border-radius: 50%; */
     /* box-shadow: 3px 3px 3px 3px black; */
 }
+.logo:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    /* animation-name: Logoani;
+    animation-duration: 1s; */
+    /* animation-direction: reverse; */
+}
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +29,8 @@ body{
     align-items: center;
     position: sticky;
     top: 0;
+
+    background-color: #3D90D7;
     /* z-index: 999; */
     /* border: 2px solid black; */
 }
@@ -27,6 +41,7 @@ ul{
 ul li a{
     text-decoration: none;
     color: black;
+    font-size: 25px;
 
 }
 li{
@@ -40,7 +55,8 @@ li{
 padding: 30px;
 }
 .links a:hover{
-    color: #007bff;
+    /* color: #007bff; */
+    color: white;
 }
 .navbar a::after{
     content: '';
