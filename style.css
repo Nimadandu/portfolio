@@ -15,7 +15,9 @@ body{
     justify-content: space-between;
     font-size: 20px;
     align-items: center;
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    /* z-index: 999; */
     /* border: 2px solid black; */
 }
 ul{
@@ -47,6 +49,7 @@ padding: 30px;
     height: 2px;
     background-color: rgb(255, 178, 34);
     margin-top: 5px;
+    transition: 0.5s;
 }
 .navbar a:hover::after{
     width: 100%;
@@ -190,6 +193,7 @@ box-shadow: 3px 3px 3px 3px black;
  .review-card:hover{
 animation-name: animated;
 animation-duration: 1s;
+cursor: pointer;
  }
  @media(max-width:600px){
     .review-card{

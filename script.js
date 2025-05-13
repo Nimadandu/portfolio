@@ -77,12 +77,12 @@ const review = [
 },
 {
     images : "./image/pexels-kevin-ku-92347-577585.jpg",
-    titles : " Elon Musk",
+    titles : " Sagun Babu Adhikari",
     descriptions : "Great work! very creative and professional",
 },
 {
     images : "./image/pexels-kevin-ku-92347-577585.jpg",
-    titles : " Elon Musk",
+    titles : " Nima Dandu sherpa",
     descriptions : "Great work! very creative and professional",
 },
 ];
