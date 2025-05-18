@@ -19,19 +19,22 @@ type();
 
 const projects = [
 {
-    image : "./image/pexels-cody-berg-463684.jpg",
-    title : " Animated Navbar",
-    description : "A responsive navigation bar with smooth animation and"
+    image : "image/BMI.jpg",
+    title : "Body Mass Index",
+    description : "This project is about to calculate the body mass index(BMI)",
+    src: "https://nimadandu.github.io/projectBMI/",
 },
 {
     image : "./image/pexels-cody-berg-463684.jpg",
     title : " Animated Navbar",
-    description : "A responsive navigation bar with smooth animation and" 
+    description : "A responsive navigation bar with smooth animation and",
+    src: "https://nimadandu.github.io/projectBMI/",
 },
 {
 image : "./image/pexels-cody-berg-463684.jpg",
 title : " Animated Navbar",
-description : "A responsive navigation bar with smooth animation and"
+description : "A responsive navigation bar with smooth animation and",
+src:"https://nimadandu.github.io/projectBMI/",
 },
 ];
 const container = document.getElementById("project-container");
@@ -43,6 +46,7 @@ projects.forEach(project=> {
     <img src = "${project.image}" alt = "${project.title}"/>
     <h3> ${project.title}</h3>
     <p>${project.description}</p>
+    <a href="${project.src}" class="view">View project</a>
     `;
     container.appendChild(card)
 });
