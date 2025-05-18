@@ -139,16 +139,18 @@ border-radius: 8px;
 }
 .homeleft{
     margin-left: 40px;
-    /* border: 2px solid black; */
-    
     font-size: 20px;
+}
+.homeleft p{
+    padding-left: 20px;
+    text-align: left;
 }
 .imageclass img{
     border: 3px dotted black;
     border-radius: 50%;
     height: 400px;
     width: 400px;
-    box-shadow: 0 0 50px rgba(240,00,00,0.5);
+    box-shadow: 0 0 50px rgba(00,00,255,1);
 
 
 }
@@ -311,6 +313,18 @@ cursor: pointer;
     text-align: center;
     /* background-color: aliceblue; */
   
+ }
+  .contact input{
+    padding: 5px;
+    border-radius: 5px ;
+    font-size: 15px;
+
+  }
+ .contact  textarea:hover{
+    border: 2px solid red;
+ }
+ .contact input:hover{
+    border: 2px solid red;
  }
  .formclass{
     display: flex;
