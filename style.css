@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    /* background-color: #169976; */
     
 }
 
@@ -146,10 +147,10 @@ border-radius: 8px;
     text-align: left;
 }
 .imageclass img{
-    border: 3px dotted black;
+    border: 2px dotted black;
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     box-shadow: 0 0 50px rgba(00,00,255,1);
 
 
@@ -177,6 +178,7 @@ margin-top: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+
 
  }
  @media(max-width:600px){
